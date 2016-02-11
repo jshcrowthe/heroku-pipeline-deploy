@@ -1,3 +1,16 @@
 name: heroku-pipeline-deploy
 version: 1.0.0
 description: heroku-pipeline-deploy step for Heroku deploys of pipelined applications
+properties:
+  user:
+    type: string
+    required: true
+  key:
+    type: string
+    required: true
+  from:
+    type: string
+    required: true
+  to:
+    type: string
+    required: false
