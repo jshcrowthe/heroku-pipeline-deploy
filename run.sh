@@ -170,6 +170,9 @@ install_toolbelt() {
 
   debug "type heroku: $(type heroku)";
   debug "heroku version: $(heroku --version)";
+
+  # Install the pipelines plugin as it doesn't come included by default
+  heroku plugins:install heroku-pipelines
 }
 
 use_wercker_ssh_key() {
