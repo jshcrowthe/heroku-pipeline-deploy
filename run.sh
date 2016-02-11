@@ -32,9 +32,9 @@ main() {
 
   # Promote from -int to -beta
   if [[ -z $WERCKER_HEROKU_PIPELINE_DEPLOY_TO ]]; then
-    heroku pipelines:promote -a $WERCKER_HEROKU_PIPELINE_DEPLOY_FROM
+    heroku pipelines:promote -a "$WERCKER_HEROKU_PIPELINE_DEPLOY_FROM"
   else
-    heroku pipelines:promote -a $WERCKER_HEROKU_PIPELINE_DEPLOY_FROM --to $WERCKER_HEROKU_PIPELINE_DEPLOY_TO
+    heroku pipelines:promote -a "$WERCKER_HEROKU_PIPELINE_DEPLOY_FROM" --to "$WERCKER_HEROKU_PIPELINE_DEPLOY_TO"
   fi
 
   # Run a command, if the push succeeded and the user supplied a run command
