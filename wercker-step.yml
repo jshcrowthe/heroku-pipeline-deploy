@@ -1,5 +1,5 @@
 name: heroku-pipeline-deploy
-version: 1.0.1
+version: 1.0.2
 description: heroku-pipeline-deploy step for Heroku deploys of pipelined applications
 properties:
   user:
