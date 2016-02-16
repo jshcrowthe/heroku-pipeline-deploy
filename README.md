@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/65c8ac3d76cde319e445fe9f956c1126/s/master "wercker status")](https://app.wercker.com/project/bykey/65c8ac3d76cde319e445fe9f956c1126)
+
 heroku-pipeline-deploy
 --------------------------------
 
