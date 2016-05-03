@@ -1,5 +1,7 @@
 Changelog
 ---------------------
+## 1.0.4
+- [BUGFIX] Removed `heroku-pipelines` plugin install (installed by default)
 
 ## 1.0.3
 - Added CHANGELOG.md
